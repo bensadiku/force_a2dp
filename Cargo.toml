@@ -1,0 +1,15 @@
+[package]
+name = "force_a2dp"
+version = "0.1.0"
+authors = ["Behxhet Sadiku <bensadiku65@gmail.com>"]
+edition = "2018"
+homepage = "https://github.com/bensadiku/force_a2dp"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/force_a2dp"
+description = "Tool to force A2DP sink on any Bluetooth device"
+keywords = ["bluetthoo", "a2dp", "bluetoothctl", "pacmd"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
